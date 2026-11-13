@@ -5,16 +5,6 @@ Aplicativo **mobile** independente, desenvolvido em **React Native com Expo**, p
 ## Enunciado
 Criar um formulário com **nome**, **matrícula**, **e-mail** e **curso**. Ao cadastrar, construir um objeto e adicioná-lo a um array de estudantes. Exibir os registros em cards usando `map()`, impedir matrícula duplicada, validar os campos obrigatórios e permitir a remoção.
 
-**Exemplo de cadastro:**
-```js
-{
-  nome: "Maria Silva",
-  matricula: "20260001",
-  email: "maria@exemplo.com",
-  curso: "Licenciatura em Computação"
-}
-```
-
 ## Funcionalidades
 - Cadastro de estudantes com quatro campos obrigatórios;
 - Validação de campos vazios e formato básico do e-mail;
