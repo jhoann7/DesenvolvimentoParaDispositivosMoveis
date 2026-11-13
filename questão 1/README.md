@@ -21,7 +21,14 @@ Receber o peso em quilogramas e calcular o consumo diário estimado de água, co
 ## Tecnologias
 React Native, Expo, JavaScript, `View`, `Text`, `TextInput`, `Pressable`, `StyleSheet` e `useState`.
 
-O aplicativo funciona integralmente com **um único `App.js`** no Expo Snack. O arquivo `calcularAgua.mjs` é mantido apenas para os testes automatizados.
+O aplicativo funciona integralmente com **um único `App.js`** no Expo Snack.
+
+## Como testar no celular
+
+1. Abra [Expo Snack](https://snack.expo.dev/) e crie um novo projeto.
+2. Cole o conteúdo do arquivo `App.js` no editor.
+3. Abra o aplicativo Expo Go no celular e escaneie o QR code apresentado pelo Snack.
+4. Execute os cenários da tabela abaixo diretamente no aplicativo mobile.
 
 ## Casos de teste
 | Entrada | Resultado esperado |
