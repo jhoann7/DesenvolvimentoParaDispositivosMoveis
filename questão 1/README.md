@@ -24,8 +24,9 @@ React Native, Expo, JavaScript, `View`, `Text`, `TextInput`, `Pressable`, `Style
 ## Executar no Expo Snack
 1. Acesse https://snack.expo.dev/ e crie um Snack.
 2. Substitua o conteúdo de `App.js` pelo código deste diretório.
-3. Selecione a visualização Android/iOS ou abra o projeto no **Expo Go** pelo QR code exibido no Snack.
-4. Informe um peso e pressione **Calcular**.
+3. Crie o arquivo `calcularAgua.mjs` no Snack, com o conteúdo do arquivo homônimo deste diretório.
+4. Selecione a visualização Android/iOS ou abra o projeto no **Expo Go** pelo QR code exibido no Snack.
+5. Informe um peso e pressione **Calcular**.
 
 ## Executar localmente
 Pré-requisitos: Node.js e aplicativo Expo Go no celular.
@@ -38,6 +39,10 @@ npx expo start
 
 Escaneie o QR code com o Expo Go (Android) ou o recurso indicado pelo Expo no iOS. O computador e o celular normalmente precisam estar na mesma rede; caso necessário, use `npx expo start --tunnel`.
 
+## Testes automatizados
+
+Para executar os testes da fórmula e das validações, use `npm test` dentro de `questão 1` (requer Node.js com suporte ao executor nativo de testes). Os arquivos estão em `tests/`.
+
 ## Casos de teste
 | Entrada | Resultado esperado |
 |---|---|
@@ -49,10 +54,10 @@ Escaneie o QR code com o Expo Go (Android) ou o recurso indicado pelo Expo no iO
 | `-5` | `Digite um peso válido maior que zero.` |
 | `abc` (quando permitido colar) | `Digite um peso válido maior que zero.` |
 
-**Status:** cenários definidos para verificação; a execução em dispositivo real e no Snack deve ser confirmada após abrir o aplicativo.
+**Status:** testes automatizados disponíveis; a execução visual em dispositivo real e no Snack deve ser confirmada após abrir o aplicativo.
 
 ## Capturas de tela
-Após testar no celular, crie a pasta `capturas/` neste diretório e adicione:
+Após testar no celular, use a pasta `capturas/` já criada neste diretório e adicione:
 
 ### 1. Tela inicial
 Captura com campo de peso vazio e botão **Calcular**.
