@@ -67,7 +67,3 @@ As capturas de tela são adicionadas separadamente após a execução dos aplica
 ## 🧪 Testes
 
 Os arquivos `README.md` de cada questão apresentam exemplos e situações para validação das funcionalidades. Os testes devem ser executados no **Expo Snack** ou no **Expo Go**, verificando os resultados e as mensagens de validação.
-
-## 📌 Observação
-
-Os aplicativos são exercícios didáticos. Os dados mantidos com `useState`, como votos, cadastros e pedidos, não são persistidos após o reinício da aplicação.
