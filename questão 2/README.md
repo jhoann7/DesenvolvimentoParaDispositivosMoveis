@@ -30,16 +30,16 @@ Captura com os campos vazios e botão **Calcular média**.
 ![Tela inicial — adicionar captura](capturas/teste1.jpeg)
 
 ### 2. Estudante aprovado
-Captura com nome preenchido e notas **8,0**, **7,0** e **9,0**, exibindo média **8,0** e **Aprovado**.
+Captura com nome preenchido, exibindo média e **Aprovado**.
 
 ![Estudante aprovado — adicionar captura](capturas/teste2.jpeg)
 
 ### 3. Estudante reprovado
-Captura com notas **5,0**, **6,0** e **7,0**, exibindo média **6,0** e **Reprovado**.
+Captura exibindo média e **Reprovado**.
 
 ![Estudante reprovado — adicionar captura](capturas/teste3.jpeg)
 
 ### 4. Validação de nota inválida
-Captura com nota **11** ou **-1** e mensagem de erro.
+Captura com nota **11** e mensagem de erro.
 
 ![Validação de nota inválida — adicionar captura](capturas/teste4.jpeg)
