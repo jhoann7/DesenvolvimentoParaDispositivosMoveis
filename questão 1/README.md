@@ -23,23 +23,6 @@ React Native, Expo, JavaScript, `View`, `Text`, `TextInput`, `Pressable`, `Style
 
 O aplicativo funciona integralmente com **um único `App.js`** no Expo Snack. O arquivo `calcularAgua.mjs` é mantido apenas para os testes automatizados.
 
-## Executar no Expo Snack
-1. Acesse https://snack.expo.dev/ e crie um Snack.
-2. Substitua o conteúdo de `App.js` pelo código deste diretório.
-3. Selecione a visualização Android/iOS ou abra o projeto no **Expo Go** pelo QR code exibido no Snack.
-4. Informe um peso e pressione **Calcular**.
-
-## Executar localmente
-Pré-requisitos: Node.js e aplicativo Expo Go no celular.
-
-```bash
-cd "questão 1"
-npm install
-npx expo start
-```
-
-Escaneie o QR code com o Expo Go (Android) ou o recurso indicado pelo Expo no iOS. O computador e o celular normalmente precisam estar na mesma rede; caso necessário, use `npx expo start --tunnel`.
-
 ## Testes automatizados
 
 Para executar os testes da fórmula e das validações, use `npm test` dentro de `questão 1` (requer Node.js com suporte ao executor nativo de testes). Os arquivos estão em `tests/`.
