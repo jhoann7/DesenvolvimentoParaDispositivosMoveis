@@ -37,16 +37,16 @@ Formulário vazio e lista sem estudantes.
 ![Tela inicial — adicionar captura](capturas/teste1.jpeg)
 
 ### 2. Estudante cadastrado
-Cadastro de Maria Silva, matrícula **20260001**.
+Cadastro de Jhoann, matrícula **2023010870**.
 
 ![Cadastro realizado — adicionar captura](capturas/teste2.jpeg)
 
 ### 3. Matrícula duplicada
-Tentativa de cadastrar novamente a matrícula **20260001**, mostrando erro.
+Tentativa de cadastrar novamente a matrícula **2023010870**, mostrando erro.
 
 ![Matrícula duplicada — adicionar captura](capturas/teste3.jpeg)
 
-### 4. Consulta e remoção
-Lista de estudantes e confirmação ao remover um cadastro.
+### 4. Remoção
+Confirmação ao remover um cadastro.
 
 ![Consulta e remoção — adicionar captura](capturas/teste4.jpeg)
