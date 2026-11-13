@@ -23,10 +23,6 @@ React Native, Expo, JavaScript, `View`, `Text`, `TextInput`, `Pressable`, `Style
 
 O aplicativo funciona integralmente com **um único `App.js`** no Expo Snack. O arquivo `calcularAgua.mjs` é mantido apenas para os testes automatizados.
 
-## Testes automatizados
-
-Para executar os testes da fórmula e das validações, use `npm test` dentro de `questão 1` (requer Node.js com suporte ao executor nativo de testes). Os arquivos estão em `tests/`.
-
 ## Casos de teste
 | Entrada | Resultado esperado |
 |---|---|
@@ -38,7 +34,7 @@ Para executar os testes da fórmula e das validações, use `npm test` dentro de
 | `-5` | `Digite um peso válido maior que zero.` |
 | `abc` (quando permitido colar) | `Digite um peso válido maior que zero.` |
 
-**Status:** testes automatizados disponíveis; a execução visual em dispositivo real e no Snack deve ser confirmada após abrir o aplicativo.
+**Status:** os cenários devem ser verificados manualmente no aplicativo mobile e registrados nas capturas de tela.
 
 ## Capturas de tela
 Após testar no celular, use a pasta `capturas/` já criada neste diretório e adicione:
