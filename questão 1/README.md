@@ -49,7 +49,7 @@ Após testar no celular, use a pasta `capturas/` já criada neste diretório e a
 ### 1. Tela inicial
 Captura com campo de peso vazio e botão **Calcular**.
 
-![Tela inicial — adicionar captura](capturas/tela-inicial.png)
+![Tela inicial — adicionar captura](capturas/teste1.jpeg)
 
 ### 2. Cálculo realizado
 Captura com peso **70** e resultado **2,45 litros**.
