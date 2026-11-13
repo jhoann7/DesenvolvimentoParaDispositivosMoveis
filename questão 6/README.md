@@ -32,12 +32,7 @@ Captura após registrar votos, mostrando os contadores individuais e o total ger
 
 ![Votos registrados — adicionar captura](capturas/teste2.jpeg)
 
-### 3. Candidato mais votado
-Captura com **10 votos para Ana**, **15 para Bruno** e **8 para Carla**, indicando Bruno como mais votado.
-
-![Candidato mais votado — adicionar captura](capturas/teste3.jpeg)
-
-### 4. Empate na liderança
+### 3. Empate na liderança
 Captura com empate entre dois ou três candidatos na maior votação.
 
-![Empate na liderança — adicionar captura](capturas/teste4.jpeg)
+![Empate na liderança — adicionar captura](capturas/teste3.jpeg)
