@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { calcularConsumoAgua } from './calcularAgua.mjs';
 import { SafeAreaView, View, Text, TextInput, Pressable, StyleSheet, StatusBar, ScrollView } from 'react-native';
 
 export default function App() {
@@ -83,3 +82,14 @@ const styles = StyleSheet.create({
   resultadoDetalhe: { color: '#356580', fontSize: 14, marginTop: 4 },
   aviso: { fontSize: 12, color: '#668297', textAlign: 'center', lineHeight: 19, marginTop: 24 }
 });
+
+// Lógica local: este App.js funciona sozinho no Expo Snack.
+function calcularConsumoAgua(entrada) {
+  const texto = String(entrada ?? '').trim();
+  if (!texto) return { valido: false, erro: 'Informe seu peso em quilogramas.' };
+  const normalizado = texto.replace(',', '.');
+  if (!/^\d+(\.\d+)?$/.test(normalizado)) return { valido: false, erro: 'Digite um peso válido maior que zero.' };
+  const peso = Number(normalizado);
+  if (!Number.isFinite(peso) || peso <= 0) return { valido: false, erro: 'Digite um peso válido maior que zero.' };
+  return { valido: true, litros: peso * 35 / 1000 };
+}
