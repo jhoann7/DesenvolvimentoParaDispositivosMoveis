@@ -46,9 +46,4 @@ Dois sanduíches e um suco adicionados ao pedido, totalizando **R$ 21,00**.
 ### 3. Resumo final
 Resumo com quantidade, nome, subtotal de cada produto e total de **R$ 21,00**.
 
-![Resumo final — adicionar captura](capturas/teste3.jpeg)
-
-### 4. Remoção de item
-Remoção do suco e atualização do total para **R$ 16,00**.
-
-![Remoção de item — adicionar captura](capturas/teste4.jpeg)
+![Resumo final — adicionar captura](capturas/teste4.jpeg)
