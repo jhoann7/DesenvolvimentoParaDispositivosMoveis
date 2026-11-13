@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { calcularConsumoAgua } from './calcularAgua.mjs';
 import { SafeAreaView, View, Text, TextInput, Pressable, StyleSheet, StatusBar, ScrollView } from 'react-native';
 
 export default function App() {
@@ -7,20 +8,14 @@ export default function App() {
   const [erro, setErro] = useState('');
 
   function calcular() {
-    const texto = peso.trim().replace(',', '.');
-    if (!texto) {
-      setErro('Informe seu peso em quilogramas.');
-      setResultado(null);
-      return;
-    }
-    const numero = Number(texto);
-    if (!Number.isFinite(numero) || numero <= 0) {
-      setErro('Digite um peso válido maior que zero.');
+    const calculo = calcularConsumoAgua(peso);
+    if (!calculo.valido) {
+      setErro(calculo.erro);
       setResultado(null);
       return;
     }
     setErro('');
-    setResultado((numero * 35 / 1000).toFixed(2).replace('.', ','));
+    setResultado(calculo.litros.toFixed(2).replace('.', ','));
   }
 
   function alterarPeso(valor) {
